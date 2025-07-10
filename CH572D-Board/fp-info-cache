@@ -1,4 +1,4 @@
-297146570375574
+305906529230447
 300mah 3.3v vreg
 SOT-23-5_MC_MCH
 
@@ -27,6 +27,13 @@ MODULE_A4988_STEPPER_MOTOR_DRIVER_CARRIER
 0
 16
 16
+Ch572D
+CH572D
+
+
+0
+21
+21
 ESP32-C3-WROOM-02
 ESP32-C3-WROOM-02 personal
 RF Module, ESP32-C3 WROOM-02, Wi-Fi and Bluetooth, BLE, onboard antenna, https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf
@@ -62,6 +69,34 @@ JST_B6B-XH-A
 0
 6
 6
+Personal
+32mhz crystal
+
+
+0
+4
+4
+Personal
+0603
+<b>RESISTOR</b>
+
+0
+2
+2
+Personal
+antenna
+
+
+0
+1
+1
+Personal
+button
+
+
+0
+4
+4
 SOP127P600X180-16N
 SOP127P600X180-16N
 
