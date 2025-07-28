@@ -6183,10 +6183,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ccfed411-3383-42c5-a6d1-ad024718da36")
 		(property "Reference" "C1"
-			(at 196.215 39.3699 90)
+			(at 196.85 39.3699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6194,8 +6193,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF"
-			(at 196.215 41.9099 90)
+		(property "Value" "0.1uF"
+			(at 194.31 43.815 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6703,7 +6702,7 @@
 				)
 			)
 		)
-		(property "Value" "MIC5504-3.3YM5-TR"
+		(property "Value" "the really cheap one (200mah)"
 			(at 220.345 27.94 0)
 			(effects
 				(font
