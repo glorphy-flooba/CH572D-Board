@@ -64,7 +64,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -89,24 +88,23 @@
 	(net 8 "Net-(R3-Pad1)")
 	(net 9 "unconnected-(U1-PA6{slash}MISO{slash}R4{slash}SDA3-Pad15)")
 	(net 10 "unconnected-(U1-PA5{slash}SCK{slash}SCL3-Pad14)")
-	(net 11 "V5")
-	(net 12 "unconnected-(U1-NC-Pad4)")
-	(net 13 "PA3")
-	(net 14 "Net-(U1-XI)")
-	(net 15 "unconnected-(U1-PA9{slash}SDA{slash}R5{slash}TMR3-Pad9)")
-	(net 16 "unconnected-(U1-PA8{slash}SCL{slash}T5{slash}PWM5{slash}RST-Pad10)")
-	(net 17 "PA2")
-	(net 18 "unconnected-(U1-PA10{slash}R6{slash}T7-Pad17)")
-	(net 19 "unconnected-(U1-PA11{slash}R7{slash}T6-Pad18)")
-	(net 20 "Net-(U1-XO)")
-	(net 21 "PA7")
-	(net 22 "unconnected-(U1-NC-Pad19)")
-	(net 23 "unconnected-(U2-NC-Pad4)")
-	(net 24 "unconnected-(J1-SBU1-PadA8)")
-	(net 25 "unconnected-(J1-SBU2-PadB8)")
-	(net 26 "ANTENNA")
-	(net 27 "PA4")
-	(net 28 "Net-(E1-Pad1)")
+	(net 11 "unconnected-(U1-NC-Pad4)")
+	(net 12 "PA3")
+	(net 13 "Net-(U1-XI)")
+	(net 14 "unconnected-(U1-PA9{slash}SDA{slash}R5{slash}TMR3-Pad9)")
+	(net 15 "unconnected-(U1-PA8{slash}SCL{slash}T5{slash}PWM5{slash}RST-Pad10)")
+	(net 16 "PA2")
+	(net 17 "unconnected-(U1-PA10{slash}R6{slash}T7-Pad17)")
+	(net 18 "unconnected-(U1-PA11{slash}R7{slash}T6-Pad18)")
+	(net 19 "Net-(U1-XO)")
+	(net 20 "PA7")
+	(net 21 "unconnected-(U1-NC-Pad19)")
+	(net 22 "unconnected-(U2-NC-Pad4)")
+	(net 23 "unconnected-(J1-SBU1-PadA8)")
+	(net 24 "unconnected-(J1-SBU2-PadB8)")
+	(net 25 "ANTENNA")
+	(net 26 "PA4")
+	(net 27 "Net-(E1-Pad1)")
 	(footprint "Personal:0603"
 		(layer "F.Cu")
 		(uuid "1447ffa0-aee4-4696-8cfa-95f3f596011b")
@@ -497,12 +495,12 @@
 	(footprint "Personal:0603"
 		(layer "F.Cu")
 		(uuid "4738faeb-1897-472d-8ae5-c3cd12971975")
-		(at 159 136.375 90)
+		(at 158.97 136.17 90)
 		(descr "<b>RESISTOR</b>")
 		(property "Reference" "C2"
 			(at 0 0 180)
 			(layer "F.SilkS")
-			(uuid "851406d9-dd6c-4514-b1f6-7e5658f02db6")
+			(uuid "6be46fda-8073-4a74-80bc-6fe6f84f5f80")
 			(effects
 				(font
 					(size 0.394126 0.394126)
@@ -514,7 +512,7 @@
 			(at 1.34 1.27 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f1e5cf5d-b739-404f-85a5-8851e61d9e4f")
+			(uuid "fa133bb6-fc07-4167-a1f4-814bac4f88b5")
 			(effects
 				(font
 					(size 0.393799 0.393799)
@@ -526,7 +524,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "edbba460-6822-45b1-aa3c-8f8572772522")
+			(uuid "25065335-f484-4217-95e1-82f393315471")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -538,7 +536,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "54975cd2-c3ec-419e-ac03-234984058970")
+			(uuid "ef48a7d8-e10a-428a-a19b-1a1ef00404ff")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -964,7 +962,7 @@
 			(at -0.5 -0.675 90)
 			(size 0.7 0.75)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 14 "Net-(U1-XI)")
+			(net 13 "Net-(U1-XI)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "30e22f36-c2f4-447b-abb6-1ecae53da230")
@@ -980,7 +978,7 @@
 			(at 0.5 0.675 90)
 			(size 0.7 0.75)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 20 "Net-(U1-XO)")
+			(net 19 "Net-(U1-XO)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "fcb8ef0a-415a-4593-8d1b-c5066e04e194")
@@ -1151,7 +1149,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1345,12 +1343,7 @@
 			(at 0 0)
 			(size 1.7 1.7)
 			(drill 1)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "GND")
 			(pinfunction "Pin_1")
@@ -1361,12 +1354,7 @@
 			(at 0 2.54)
 			(size 1.7 1.7)
 			(drill 1)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 3 "+3.3V")
 			(pinfunction "Pin_2")
@@ -1377,12 +1365,7 @@
 			(at 0 5.08)
 			(size 1.7 1.7)
 			(drill 1)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "+5V")
 			(pinfunction "Pin_3")
@@ -1393,14 +1376,9 @@
 			(at 0 7.62)
 			(size 1.7 1.7)
 			(drill 1)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 13 "PA3")
+			(net 12 "PA3")
 			(pinfunction "Pin_4")
 			(pintype "passive")
 			(uuid "640c2ab9-6a54-494a-b979-ba36c605aa88")
@@ -1409,14 +1387,9 @@
 			(at 0 10.16)
 			(size 1.7 1.7)
 			(drill 1)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 17 "PA2")
+			(net 16 "PA2")
 			(pinfunction "Pin_5")
 			(pintype "passive")
 			(uuid "6b949fea-2044-41c1-8c48-0de527fc80ad")
@@ -1425,14 +1398,9 @@
 			(at 0 12.7)
 			(size 1.7 1.7)
 			(drill 1)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 21 "PA7")
+			(net 20 "PA7")
 			(pinfunction "Pin_6")
 			(pintype "passive")
 			(uuid "6f5053c5-4066-4559-a1e3-18a9f257e0b3")
@@ -1441,14 +1409,9 @@
 			(at 0 15.24)
 			(size 1.7 1.7)
 			(drill 1)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 27 "PA4")
+			(net 26 "PA4")
 			(pinfunction "Pin_7")
 			(pintype "passive")
 			(uuid "ab5c1420-7765-49e0-b03f-158e5df37a49")
@@ -1483,7 +1446,7 @@
 				)
 			)
 		)
-		(property "Value" "MIC5504-3.3YM5-TR"
+		(property "Value" "the really cheap one (200mah)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2014,7 +1977,7 @@
 			(at 1.2954 0.950001)
 			(size 1.3208 0.508)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 23 "unconnected-(U2-NC-Pad4)")
+			(net 22 "unconnected-(U2-NC-Pad4)")
 			(pinfunction "NC")
 			(pintype "no_connect")
 			(uuid "11cc28b8-5d48-4350-bb69-4f1ea797ed8b")
@@ -2152,7 +2115,7 @@
 			(at 0.85 0 180)
 			(size 1.1 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 26 "ANTENNA")
+			(net 25 "ANTENNA")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "556b748c-ff0b-4f01-8dd0-a93032ed0fce")
@@ -2272,7 +2235,7 @@
 			(at -0.85 0 180)
 			(size 1.1 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 11 "V5")
+			(net 1 "+5V")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "ce888ed8-b5fe-4771-9939-7638a2cee066")
@@ -2528,24 +2491,14 @@
 			(at -2.89 -3.68)
 			(size 0.65 0.65)
 			(drill 0.65)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "4ff07b0a-4148-4771-a214-c3cf7cb97e79")
 		)
 		(pad "" np_thru_hole circle
 			(at 2.89 -3.68)
 			(size 0.65 0.65)
 			(drill 0.65)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "36b2b3e5-38cc-405a-bfa8-4cf851b04859")
 		)
 		(pad "A1_B12" smd rect
@@ -2602,7 +2555,7 @@
 			(at 1.25 -4.75)
 			(size 0.3 1.14)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 24 "unconnected-(J1-SBU1-PadA8)")
+			(net 23 "unconnected-(J1-SBU1-PadA8)")
 			(pinfunction "SBU1")
 			(pintype "bidirectional+no_connect")
 			(solder_mask_margin 0.102)
@@ -2662,7 +2615,7 @@
 			(at -1.75 -4.75)
 			(size 0.3 1.14)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 25 "unconnected-(J1-SBU2-PadB8)")
+			(net 24 "unconnected-(J1-SBU2-PadB8)")
 			(pinfunction "SBU2")
 			(pintype "bidirectional+no_connect")
 			(solder_mask_margin 0.102)
@@ -2672,12 +2625,7 @@
 			(at -4.32 -4.18)
 			(size 1.05 2.1)
 			(drill oval 0.6 1.7)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "GND")
 			(pinfunction "SHIELD")
@@ -2689,12 +2637,7 @@
 			(at 4.32 -4.18)
 			(size 1.05 2.1)
 			(drill oval 0.6 1.7)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "GND")
 			(pinfunction "SHIELD__1")
@@ -2706,12 +2649,7 @@
 			(at -4.32 0)
 			(size 0.9 1.8)
 			(drill oval 0.6 1.4)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "GND")
 			(pinfunction "SHIELD__2")
@@ -2723,12 +2661,7 @@
 			(at 4.32 0)
 			(size 0.9 1.8)
 			(drill oval 0.6 1.4)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "GND")
 			(pinfunction "SHIELD__3")
@@ -3282,7 +3215,7 @@
 			(at -1.7 0 90)
 			(size 0.8 1.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 28 "Net-(E1-Pad1)")
+			(net 27 "Net-(E1-Pad1)")
 			(pintype "input")
 			(solder_mask_margin 0.102)
 			(uuid "0cc76220-10fa-4d37-b17c-ff8eb77f7409")
@@ -3312,7 +3245,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "0.1uF"
 			(at 1.34 1.27 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3933,7 +3866,7 @@
 			(at -2.22 -2.86 270)
 			(size 0.81 0.22)
 			(layers "F.Cu" "F.Paste")
-			(net 13 "PA3")
+			(net 12 "PA3")
 			(pinfunction "PA3/T/R1/SCL2/SCK_/PWM3/CP0")
 			(pintype "bidirectional")
 			(uuid "aa834407-aa96-4cd9-8ec7-89b4de684925")
@@ -3942,7 +3875,7 @@
 			(at -2.22 -2.46 270)
 			(size 0.81 0.22)
 			(layers "F.Cu" "F.Paste")
-			(net 20 "Net-(U1-XO)")
+			(net 19 "Net-(U1-XO)")
 			(pinfunction "XO")
 			(pintype "input")
 			(uuid "d953a92f-7f85-40e5-99e0-876a5c2f73b2")
@@ -3951,7 +3884,7 @@
 			(at -2.22 -2.06 270)
 			(size 0.81 0.22)
 			(layers "F.Cu" "F.Paste")
-			(net 14 "Net-(U1-XI)")
+			(net 13 "Net-(U1-XI)")
 			(pinfunction "XI")
 			(pintype "input")
 			(uuid "9a342b03-6766-4166-be7a-4bfe7895ceae")
@@ -3960,7 +3893,7 @@
 			(at -2.22 -1.66 270)
 			(size 0.81 0.22)
 			(layers "F.Cu" "F.Paste")
-			(net 12 "unconnected-(U1-NC-Pad4)")
+			(net 11 "unconnected-(U1-NC-Pad4)")
 			(pinfunction "NC")
 			(pintype "no_connect")
 			(uuid "009e41d7-b703-4486-a737-61c2f97c1400")
@@ -3969,7 +3902,7 @@
 			(at -2.22 -1.26 270)
 			(size 0.81 0.22)
 			(layers "F.Cu" "F.Paste")
-			(net 26 "ANTENNA")
+			(net 25 "ANTENNA")
 			(pinfunction "ANT")
 			(pintype "bidirectional")
 			(uuid "3c7f7317-4622-411b-851b-e84e3e4f7853")
@@ -3996,7 +3929,7 @@
 			(at -0.77 -0.61 270)
 			(size 0.22 0.81)
 			(layers "F.Cu" "F.Paste")
-			(net 11 "V5")
+			(net 1 "+5V")
 			(pinfunction "V5")
 			(pintype "power_in")
 			(uuid "35537101-b6af-45b8-a90a-3b46fa3b5365")
@@ -4005,7 +3938,7 @@
 			(at -0.37 -0.61 270)
 			(size 0.22 0.81)
 			(layers "F.Cu" "F.Paste")
-			(net 15 "unconnected-(U1-PA9{slash}SDA{slash}R5{slash}TMR3-Pad9)")
+			(net 14 "unconnected-(U1-PA9{slash}SDA{slash}R5{slash}TMR3-Pad9)")
 			(pinfunction "PA9/SDA/R5/TMR3")
 			(pintype "bidirectional")
 			(uuid "678c736f-bb77-41d2-8864-a7db24c642e3")
@@ -4014,7 +3947,7 @@
 			(at 0.03 -0.61 270)
 			(size 0.22 0.81)
 			(layers "F.Cu" "F.Paste")
-			(net 16 "unconnected-(U1-PA8{slash}SCL{slash}T5{slash}PWM5{slash}RST-Pad10)")
+			(net 15 "unconnected-(U1-PA8{slash}SCL{slash}T5{slash}PWM5{slash}RST-Pad10)")
 			(pinfunction "PA8/SCL/T5/PWM5/RST")
 			(pintype "bidirectional+no_connect")
 			(uuid "d8194b46-ea2c-463f-8d68-82a347e7ed52")
@@ -4041,7 +3974,7 @@
 			(at 0.68 -2.06 270)
 			(size 0.81 0.22)
 			(layers "F.Cu" "F.Paste")
-			(net 27 "PA4")
+			(net 26 "PA4")
 			(pinfunction "PA4/SCS/PWM4/TMR2")
 			(pintype "bidirectional")
 			(uuid "60df5580-8d2b-41f6-956b-67d117b81038")
@@ -4068,7 +4001,7 @@
 			(at 0.03 -3.51 270)
 			(size 0.22 0.81)
 			(layers "F.Cu" "F.Paste")
-			(net 21 "PA7")
+			(net 20 "PA7")
 			(pinfunction "PA7/MOSI/T4/PWM1/TMR/RST_/CP1")
 			(pintype "bidirectional")
 			(uuid "0fffec9c-b4c5-40da-9eb8-b11159354997")
@@ -4077,7 +4010,7 @@
 			(at -0.37 -3.51 270)
 			(size 0.22 0.81)
 			(layers "F.Cu" "F.Paste")
-			(net 18 "unconnected-(U1-PA10{slash}R6{slash}T7-Pad17)")
+			(net 17 "unconnected-(U1-PA10{slash}R6{slash}T7-Pad17)")
 			(pinfunction "PA10/R6/T7")
 			(pintype "bidirectional")
 			(uuid "df005699-92b5-4967-9d42-1cc335f89957")
@@ -4086,7 +4019,7 @@
 			(at -0.77 -3.51 270)
 			(size 0.22 0.81)
 			(layers "F.Cu" "F.Paste")
-			(net 19 "unconnected-(U1-PA11{slash}R7{slash}T6-Pad18)")
+			(net 18 "unconnected-(U1-PA11{slash}R7{slash}T6-Pad18)")
 			(pinfunction "PA11/R7/T6")
 			(pintype "bidirectional")
 			(uuid "7afdb551-8700-461b-8fbf-02ca003e2ada")
@@ -4095,7 +4028,7 @@
 			(at -1.17 -3.51 270)
 			(size 0.22 0.81)
 			(layers "F.Cu" "F.Paste")
-			(net 22 "unconnected-(U1-NC-Pad19)")
+			(net 21 "unconnected-(U1-NC-Pad19)")
 			(pinfunction "NC")
 			(pintype "no_connect")
 			(uuid "cdf01fda-81af-4a67-bc21-27104e5c6230")
@@ -4104,7 +4037,7 @@
 			(at -1.57 -3.51 270)
 			(size 0.22 0.81)
 			(layers "F.Cu" "F.Paste")
-			(net 17 "PA2")
+			(net 16 "PA2")
 			(pinfunction "PA2/R/T1/SDA2/SCS_/PWM2/TMR1/CN")
 			(pintype "bidirectional")
 			(uuid "12f4a1de-6d50-46b9-8d95-b60d57f5960e")
@@ -4221,7 +4154,7 @@
 			(at -0.85 0 270)
 			(size 1.1 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 28 "Net-(E1-Pad1)")
+			(net 27 "Net-(E1-Pad1)")
 			(pinfunction "1")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
@@ -4231,7 +4164,7 @@
 			(at 0.85 0 270)
 			(size 1.1 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 26 "ANTENNA")
+			(net 25 "ANTENNA")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
@@ -4248,7 +4181,7 @@
 			(type solid)
 		)
 		(layer "F.Cu")
-		(net 26)
+		(net 25)
 		(uuid "0f868a4d-f239-43c2-917b-f2755e20ac1b")
 	)
 	(gr_rect
@@ -4260,7 +4193,7 @@
 		)
 		(fill yes)
 		(layer "F.Cu")
-		(net 26)
+		(net 25)
 		(uuid "433d137f-c10e-4d2f-a929-4ca5e58ca245")
 	)
 	(gr_rect
@@ -4272,7 +4205,7 @@
 		)
 		(fill yes)
 		(layer "F.Cu")
-		(net 28)
+		(net 27)
 		(uuid "55a03098-8d5b-403e-a939-684281e2fcef")
 	)
 	(gr_arc
@@ -4384,6 +4317,14 @@
 		(uuid "17c2f4f2-76ce-4d7f-86d9-4074a370c55f")
 	)
 	(segment
+		(start 159.375 133.775)
+		(end 159.575 133.575)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "1925dddf-cf81-4eb9-b823-ac4007294164")
+	)
+	(segment
 		(start 158.04 140.456665)
 		(end 158.035833 140.460833)
 		(width 0.2)
@@ -4440,12 +4381,36 @@
 		(uuid "53fade14-26ee-4e60-a01f-99f76c06113f")
 	)
 	(segment
+		(start 159.575 133.575)
+		(end 160.875 133.575)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "5e9067ba-b20b-4f1e-b351-f57d48cd85f9")
+	)
+	(segment
+		(start 157.85 138.335)
+		(end 158.387 137.798)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "63640d85-2608-49a2-ae95-3d74f33c6b9c")
+	)
+	(segment
 		(start 155.2616 137.807001)
 		(end 154.7796 137.325001)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 1)
 		(uuid "63daff65-fb22-47ad-b689-9dfba7018e89")
+	)
+	(segment
+		(start 159.698 134.098)
+		(end 159.375 133.775)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "8425a72d-482b-4433-94bd-3e23c6047585")
 	)
 	(segment
 		(start 157.85 138.335)
@@ -4488,6 +4453,14 @@
 		(uuid "a394232b-3bd3-4da7-b893-0622243ac5ef")
 	)
 	(segment
+		(start 158.387 137.798)
+		(end 159.698 137.798)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "b148e667-dd8c-437a-a3b9-8ba50d5ac54a")
+	)
+	(segment
 		(start 166.225 145.075)
 		(end 163.375 145.075)
 		(width 0.2)
@@ -4510,6 +4483,14 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "c711370e-bdee-4707-8597-5e923c489211")
+	)
+	(segment
+		(start 159.698 137.798)
+		(end 159.698 134.098)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "d374e439-ee4e-4add-b246-83be6c10e4a2")
 	)
 	(segment
 		(start 157.85 139.105)
@@ -5693,27 +5674,11 @@
 		(uuid "e9dd8e53-a8ff-41c2-9512-568bb49cfd4a")
 	)
 	(segment
-		(start 159.375 133.775)
-		(end 159.575 133.575)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 11)
-		(uuid "1925dddf-cf81-4eb9-b823-ac4007294164")
-	)
-	(segment
-		(start 159.575 133.575)
-		(end 160.875 133.575)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 11)
-		(uuid "5e9067ba-b20b-4f1e-b351-f57d48cd85f9")
-	)
-	(segment
 		(start 167.375 128.895)
 		(end 167.375 129.7)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 13)
+		(net 12)
 		(uuid "9a33971c-f1fd-43fe-be95-5f092c90d926")
 	)
 	(segment
@@ -5721,7 +5686,7 @@
 		(end 164.95 132.125)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 13)
+		(net 12)
 		(uuid "e0dc3184-d733-4e4d-82c9-7ca106d794d0")
 	)
 	(segment
@@ -5729,7 +5694,7 @@
 		(end 163.125 132.125)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 13)
+		(net 12)
 		(uuid "f2fcaad1-35c6-4bab-bef3-689dc0c0d19f")
 	)
 	(segment
@@ -5737,7 +5702,7 @@
 		(end 163.85 131.025)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 14)
+		(net 13)
 		(uuid "10e9a612-aca4-4a33-92a8-39670e2908f2")
 	)
 	(segment
@@ -5745,7 +5710,7 @@
 		(end 162.75 131)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 14)
+		(net 13)
 		(uuid "2ac33ff9-4c25-4ca9-9564-7819f8c6eb1d")
 	)
 	(segment
@@ -5753,7 +5718,7 @@
 		(end 162.325 131.425)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 14)
+		(net 13)
 		(uuid "791a4048-a4af-4543-82b5-5e03eb7ac6c5")
 	)
 	(segment
@@ -5761,7 +5726,7 @@
 		(end 163.825 131)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 14)
+		(net 13)
 		(uuid "884ddc38-2344-4976-ab53-dbba88df9f59")
 	)
 	(via
@@ -5769,7 +5734,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 14)
+		(net 13)
 		(uuid "4ae7ecca-d072-4dc8-ab18-ef515995c713")
 	)
 	(via
@@ -5777,7 +5742,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 14)
+		(net 13)
 		(uuid "aa3269e0-bb9f-4bb3-ac91-c2d641d848e2")
 	)
 	(segment
@@ -5785,7 +5750,7 @@
 		(end 163.85 137.1875)
 		(width 0.2)
 		(layer "B.Cu")
-		(net 14)
+		(net 13)
 		(uuid "ae03051d-678b-45f3-ad3c-d5befa8921f9")
 	)
 	(segment
@@ -5793,7 +5758,7 @@
 		(end 163.85 131.025)
 		(width 0.2)
 		(layer "B.Cu")
-		(net 14)
+		(net 13)
 		(uuid "ba7f0e69-b5d4-4514-b88e-08c89696dc6e")
 	)
 	(segment
@@ -5801,7 +5766,7 @@
 		(end 166.035 132.775)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 17)
+		(net 16)
 		(uuid "08d3edd7-cdcb-4597-b167-27d34e8bd7f9")
 	)
 	(segment
@@ -5809,7 +5774,7 @@
 		(end 167.375 131.435)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 17)
+		(net 16)
 		(uuid "6e5428a9-a2fc-4b93-af7e-d899fdd9b7cd")
 	)
 	(segment
@@ -5817,7 +5782,7 @@
 		(end 162.895 131.35)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 20)
+		(net 19)
 		(uuid "155404d4-5b2a-4dfc-8c60-4b7403ed3e78")
 	)
 	(segment
@@ -5825,7 +5790,7 @@
 		(end 164.380186 131.625)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 20)
+		(net 19)
 		(uuid "9e3670f1-0ed3-4c67-846d-7e67c8aac9b6")
 	)
 	(segment
@@ -5833,7 +5798,7 @@
 		(end 163.65 131.625)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 20)
+		(net 19)
 		(uuid "c2f5c226-bdb9-4170-a4fe-9042afa6b159")
 	)
 	(segment
@@ -5841,7 +5806,7 @@
 		(end 163.375 131.35)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 20)
+		(net 19)
 		(uuid "cb94ff5f-c8b5-4154-9547-a5acc5c252c9")
 	)
 	(segment
@@ -5849,7 +5814,7 @@
 		(end 162.725 131.52)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 20)
+		(net 19)
 		(uuid "cfb65483-0958-4059-9ee8-ad07a50f04ef")
 	)
 	(segment
@@ -5857,7 +5822,7 @@
 		(end 164.619842 131.385344)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 20)
+		(net 19)
 		(uuid "d6f61f2f-f41e-471e-b9b0-157659942f96")
 	)
 	(via
@@ -5865,7 +5830,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 20)
+		(net 19)
 		(uuid "d2871c2d-78c4-42f5-b60a-1996a4952404")
 	)
 	(via
@@ -5873,7 +5838,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 20)
+		(net 19)
 		(uuid "e3793b2e-dcd8-4477-9740-f56b2ad362e8")
 	)
 	(segment
@@ -5881,7 +5846,7 @@
 		(end 165 131.765502)
 		(width 0.2)
 		(layer "B.Cu")
-		(net 20)
+		(net 19)
 		(uuid "2cf4d0fb-ce9c-42fb-a28e-214f28e062fb")
 	)
 	(segment
@@ -5889,7 +5854,7 @@
 		(end 164.619842 131.385344)
 		(width 0.2)
 		(layer "B.Cu")
-		(net 20)
+		(net 19)
 		(uuid "dc0b9adb-3329-4199-a19c-8fcef53a02a6")
 	)
 	(segment
@@ -5897,7 +5862,7 @@
 		(end 167.375 133.975)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 21)
+		(net 20)
 		(uuid "a5c82ebe-4ec6-411a-a557-a21007be546a")
 	)
 	(segment
@@ -5905,7 +5870,7 @@
 		(end 166.975 134.375)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 21)
+		(net 20)
 		(uuid "f88ea697-1363-4dee-bbda-4ff7c3b3fe39")
 	)
 	(segment
@@ -5913,7 +5878,7 @@
 		(end 161.025 132.35)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 26)
+		(net 25)
 		(uuid "0205688f-3658-4c6a-802c-e623b1ac844d")
 	)
 	(segment
@@ -5921,7 +5886,7 @@
 		(end 161.525 132.4)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 26)
+		(net 25)
 		(uuid "2afa9971-fc18-431e-bdc4-23943cb9521f")
 	)
 	(segment
@@ -5929,7 +5894,7 @@
 		(end 161.425 132.35)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 26)
+		(net 25)
 		(uuid "835d25e6-2c68-4724-8eb1-7f9656d5c656")
 	)
 	(segment
@@ -5937,7 +5902,7 @@
 		(end 161.5 132.425)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 26)
+		(net 25)
 		(uuid "89a2e29b-679e-4fb9-94a7-d606addb1410")
 	)
 	(segment
@@ -5945,7 +5910,7 @@
 		(end 162.325 135.63)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 27)
+		(net 26)
 		(uuid "4b617455-9761-4525-b7a4-21ec3a14e7a6")
 	)
 	(segment
@@ -5953,7 +5918,7 @@
 		(end 162.5045 135.8095)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 27)
+		(net 26)
 		(uuid "67d6eca4-f3fd-4a85-8b99-4661a0dbf6b0")
 	)
 	(segment
@@ -5961,7 +5926,7 @@
 		(end 167.375 136.515)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 27)
+		(net 26)
 		(uuid "80b077a3-ef7a-41b1-a6be-7101e9b7b08f")
 	)
 	(segment
@@ -5969,7 +5934,7 @@
 		(end 166.6695 135.8095)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 27)
+		(net 26)
 		(uuid "ce66bd5f-69b8-4c62-978c-4c94e09ab449")
 	)
 	(zone
