@@ -158,166 +158,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0603:L_0603"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L_0603"
-				(at 1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Personal:0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inductor, SMD, 0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*1210*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_0603_0_1"
-				(arc
-					(start 0 2.54)
-					(mid 0.6323 1.905)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 -0.635)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -1.905)
-					(end 0 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_0603_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "0603:R_0603"
 			(pin_names
 				(offset 1.016)
@@ -1294,159 +1134,6 @@
 						)
 					)
 					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "C_0603_1"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at -2.794 3.302 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "F"
-				(at 2.794 -3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Personal:0603"
-				(at 8.89 -5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "YAGEO"
-				(at -8.89 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "C_0603_1_0_1"
-				(polyline
-					(pts
-						(xy -0.762 -2.032) (xy -0.762 2.032)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -2.032) (xy 0.762 2.032)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_0603_1_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3225,12 +2912,6 @@
 		(uuid "4826f9c3-f6f4-4f0a-843e-d0e458f3caa2")
 	)
 	(junction
-		(at 85.09 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6513fdf6-fa89-429d-ab40-57ee72c9cf8b")
-	)
-	(junction
 		(at 34.29 47.625)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3299,16 +2980,6 @@
 			(type default)
 		)
 		(uuid "02678b7c-3159-4aba-88bf-b74aaeab8312")
-	)
-	(wire
-		(pts
-			(xy 179.07 118.11) (xy 179.07 117.475)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0932a009-af2f-47c5-ad20-7f26a644ca77")
 	)
 	(wire
 		(pts
@@ -3482,13 +3153,13 @@
 	)
 	(wire
 		(pts
-			(xy 70.485 95.25) (xy 75.565 95.25)
+			(xy 173.99 118.11) (xy 179.07 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7ad122e4-1cd3-4c36-83cf-d9457579eab0")
+		(uuid "75fc1b1f-88b5-4ba9-828f-b5cd4d336214")
 	)
 	(wire
 		(pts
@@ -3519,16 +3190,6 @@
 			(type default)
 		)
 		(uuid "87d2273f-cc67-435a-b40e-8eecbf038453")
-	)
-	(wire
-		(pts
-			(xy 88.265 95.25) (xy 85.09 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89ed8bea-b1eb-46d0-8fdd-7b93b2818035")
 	)
 	(wire
 		(pts
@@ -3709,16 +3370,6 @@
 			(type default)
 		)
 		(uuid "c839a4ce-0aa3-4f6f-bf71-d42a919f277c")
-	)
-	(wire
-		(pts
-			(xy 85.09 95.25) (xy 83.185 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2ee08e0-ee0c-47a8-8500-7a3def21d830")
 	)
 	(wire
 		(pts
@@ -4004,28 +3655,6 @@
 			)
 		)
 	)
-	(global_label "ANTENNA"
-		(shape input)
-		(at 179.07 117.475 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8ff4117f-3154-4817-a9e2-69109a8206b2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.7995 117.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PA2"
 		(shape input)
 		(at 144.145 86.36 0)
@@ -4083,28 +3712,6 @@
 		(uuid "bed6c7fb-30b4-4ef0-9b84-84eb0ada109f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 258.0133 133.985 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ANTENNA"
-		(shape input)
-		(at 88.265 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c10fd91b-0990-4f94-b1c0-0369d4a6253a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.5355 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4273,7 +3880,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Personal:0603"
+		(property "Footprint" "Footprint:0603"
 			(at 77.597 17.145 0)
 			(effects
 				(font
@@ -4420,7 +4027,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Personal:0603"
+		(property "Footprint" "Footprint:0603"
 			(at 127.762 142.24 0)
 			(effects
 				(font
@@ -4737,72 +4344,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 85.09 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4750201c-519e-444b-b96c-3695647f8db6")
-		(property "Reference" "#PWR018"
-			(at 85.09 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 85.09 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4898893f-384e-4f3b-ae81-b87c2b3e6481")
-		)
-		(instances
-			(project "CH572D-Board"
-				(path "/d6c27e9c-ed7d-4abc-a065-a06ab89896a3"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 144.145 78.74 270)
 		(unit 1)
@@ -4895,7 +4436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Personal:button"
+		(property "Footprint" "Footprint:button"
 			(at 246.38 147.32 0)
 			(effects
 				(font
@@ -5126,7 +4667,7 @@
 	)
 	(symbol
 		(lib_id "ceramic antenna:AMCA31-2R450G-S1F-T3")
-		(at 65.405 95.25 90)
+		(at 168.91 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5134,7 +4675,7 @@
 		(dnp no)
 		(uuid "5e0365da-c58c-428a-adba-d2d35689d7d9")
 		(property "Reference" "E1"
-			(at 64.135 96.52 90)
+			(at 167.64 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5142,7 +4683,7 @@
 			)
 		)
 		(property "Value" "AMCA31-2R450G-S1F-T3"
-			(at 59.69 99.695 90)
+			(at 163.195 122.555 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5150,8 +4691,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Personal:ceramic antenna"
-			(at 65.405 95.25 0)
+		(property "Footprint" "Footprint:DM00024648"
+			(at 168.91 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5161,7 +4702,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 65.405 95.25 0)
+			(at 168.91 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5170,7 +4711,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 65.405 95.25 0)
+			(at 168.91 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5179,7 +4720,7 @@
 			)
 		)
 		(property "PARTREV" "03-21-19"
-			(at 65.405 95.25 0)
+			(at 168.91 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5189,7 +4730,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 65.405 95.25 0)
+			(at 168.91 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5199,7 +4740,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "AMCA31-2R450G-S1F-T3"
-			(at 65.405 95.25 0)
+			(at 168.91 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5209,7 +4750,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.4mm"
-			(at 65.405 95.25 0)
+			(at 168.91 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5219,7 +4760,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Abracon"
-			(at 65.405 95.25 0)
+			(at 168.91 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5465,7 +5006,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Personal:32mhz crystal"
+		(property "Footprint" "Footprint:32mhz crystal"
 			(at 167.005 107.315 0)
 			(effects
 				(font
@@ -5574,7 +5115,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Personal:0603"
+		(property "Footprint" "Footprint:0603"
 			(at 258.318 153.67 0)
 			(effects
 				(font
@@ -5655,7 +5196,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Personal:0603"
+		(property "Footprint" "Footprint:0603"
 			(at 119.507 142.24 0)
 			(effects
 				(font
@@ -5734,7 +5275,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Ch572D:CH572D"
+		(property "Footprint" "Footprint:CH572D"
 			(at 189.23 142.748 0)
 			(effects
 				(font
@@ -5926,7 +5467,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Personal:0603"
+		(property "Footprint" "Footprint:0603"
 			(at 26.543 29.845 0)
 			(effects
 				(font
@@ -6005,7 +5546,7 @@
 				)
 			)
 		)
-		(property "Footprint" "usbcport:usbcport"
+		(property "Footprint" "Footprint:usbc"
 			(at 52.07 33.655 0)
 			(effects
 				(font
@@ -6421,7 +5962,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Personal:0603"
+		(property "Footprint" "Footprint:0603"
 			(at 198.628 31.75 0)
 			(effects
 				(font
@@ -6540,74 +6081,6 @@
 		)
 	)
 	(symbol
-		(lib_id "0603:L_0603")
-		(at 79.375 95.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf93454b-2d12-49c7-9dc5-a2180523a27f")
-		(property "Reference" "L1"
-			(at 79.375 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.9nH"
-			(at 79.375 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Personal:0603"
-			(at 79.375 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 79.375 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor, SMD, 0603"
-			(at 79.375 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d8b320f-7979-4b04-8c6a-6eb31faba1a7")
-		)
-		(pin "2"
-			(uuid "17acaaea-dc12-44eb-9863-36743f7116d3")
-		)
-		(instances
-			(project ""
-				(path "/d6c27e9c-ed7d-4abc-a065-a06ab89896a3"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "0603:C_0603")
 		(at 247.65 40.64 90)
 		(unit 1)
@@ -6635,7 +6108,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Personal:0603"
+		(property "Footprint" "Footprint:0603"
 			(at 253.238 31.75 0)
 			(effects
 				(font
@@ -6714,7 +6187,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fab:PinHeader_1x07_P2.54mm_Vertical_THT_D1mm"
+		(property "Footprint" "Footprint:PinHeader_01x07_P2.54mm_Vertical_THT_D1mm"
 			(at 139.065 83.82 0)
 			(effects
 				(font
@@ -6929,7 +6402,7 @@
 				)
 			)
 		)
-		(property "Footprint" "300mah 3.3v vreg:SOT-23-5_MC_MCH"
+		(property "Footprint" "Footprint:voltage regulator"
 			(at 200.025 35.56 0)
 			(effects
 				(font
@@ -7142,7 +6615,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Personal:0603"
+		(property "Footprint" "Footprint:0603"
 			(at 107.442 142.24 0)
 			(effects
 				(font
@@ -7190,87 +6663,6 @@
 			(project ""
 				(path "/d6c27e9c-ed7d-4abc-a065-a06ab89896a3"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "C_0603_1")
-		(lib_id "0603:C_0603")
-		(at 85.09 100.33 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fbd7224a-eaf1-453a-b4d6-9589d5b7dff7")
-		(property "Reference" "C3"
-			(at 85.725 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1.5pF"
-			(at 85.725 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Personal:0603"
-			(at 90.678 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 85.09 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "YAGEO"
-			(at 78.232 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1bc8016d-8e80-4fa8-b7a4-7ec9044c1f76")
-		)
-		(pin "2"
-			(uuid "6a726428-967d-440b-9d29-02becbdd3496")
-		)
-		(instances
-			(project ""
-				(path "/d6c27e9c-ed7d-4abc-a065-a06ab89896a3"
-					(reference "C3")
 					(unit 1)
 				)
 			)
